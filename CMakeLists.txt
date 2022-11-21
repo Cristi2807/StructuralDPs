@@ -29,4 +29,13 @@ add_executable(StructuralDPs main.cpp
         Proxy/Person.cpp
         Proxy/CashProtected.cpp
         Proxy/Cash.cpp
+
+        Facade/Subsystem1.cpp
+        Facade/Subsystem2.cpp
+        Facade/Facade.cpp
+
+        Flyweight/SharedState.cpp
+        Flyweight/UniqueState.cpp
+        Flyweight/Flyweight.cpp
+        Flyweight/FlyweightFactory.cpp
         )
